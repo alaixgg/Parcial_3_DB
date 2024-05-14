@@ -38,7 +38,9 @@ CREATE TABLE PROFESOR(
   direccion_profesor nvarchar2(80),
   fecha_nacimiento_profesor timestamp,
   id_codigo_postal number,
-  id_poblacion number
+  id_poblacion number,
+  telefono_profesor number
+  
 );
 
 CREATE TABLE CODIGO_POSTAL(
