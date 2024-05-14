@@ -14,8 +14,10 @@ CREATE TABLE ALUMNOS(
   direccion_alumno nvarchar2(80),
   fecha_nacimiento_alumno timestamp,
   id_codigo_postal number,
-  id_poblacion number
+  id_poblacion number,
+  telefono_alumno number
 );
+
 
 CREATE TABLE NOTA_ALUMNOS(
   id_nota_alumno number PRIMARY KEY,
